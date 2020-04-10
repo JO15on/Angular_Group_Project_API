@@ -1,12 +1,6 @@
 {
   "name": "movies-api",
   "version": "0.0.0",
-  "main": "main.js",
-  "build": {
-    "directories": {
-      "output": "release/"
-    }
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
