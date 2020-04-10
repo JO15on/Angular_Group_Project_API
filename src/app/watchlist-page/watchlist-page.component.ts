@@ -8,6 +8,9 @@ import { MoviesService } from '../movies.service'
   styleUrls: ['./watchlist-page.component.css']
 })
 export class WatchlistPageComponent implements OnInit {
+  i: any;
+  
+
   @Input()
   posts : any;
 
@@ -27,6 +30,10 @@ export class WatchlistPageComponent implements OnInit {
 
   closePopout(i){
     this.posts.splice(i, 1);
+  }
+
+  addMovie(post){
+    this.service.addToWatchList(post)
   }
  
 }

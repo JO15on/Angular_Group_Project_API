@@ -9,6 +9,9 @@ import { MoviesService } from '../movies.service'
 })
 export class OverviewComponent implements OnInit {
 
+  poster_path: string;
+  overview: string;
+
   @Input()
   post : Movies;
 

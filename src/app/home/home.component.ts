@@ -8,6 +8,11 @@ import { MoviesService } from '../movies.service';
 })
 export class HomeComponent implements OnInit {
 
+  language:any;
+  english:any;
+  dropdown:any;
+
+
   constructor(public service: MoviesService) { }
 
   ngOnInit() {

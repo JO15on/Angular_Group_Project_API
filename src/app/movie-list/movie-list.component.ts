@@ -8,6 +8,7 @@ import { MoviesService } from '../movies.service'
   styleUrls: ['./movie-list.component.css']
 })
 export class MovieListComponent implements OnInit {
+ 
 
   @Input()
   posts : Movies;
