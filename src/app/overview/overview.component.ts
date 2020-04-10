@@ -11,7 +11,7 @@ export class OverviewComponent implements OnInit {
 
 
   @Input()
-  post : Movies[];
+  post : any;
 
   @Input()
   movies : Movies[] =[];
